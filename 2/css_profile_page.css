@@ -1,0 +1,188 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+body
+{
+    background: url(quot.png) repeat-y;
+}
+
+.main_block
+{
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.foto
+{
+    border-radius: 4px;
+    padding: 0;
+    float: none;
+    margin-bottom: 44px;
+    position: unset;
+    display: block;
+}
+
+.left_block
+{
+    float: left;
+    width: 325px;
+}
+
+.left_block ul
+{
+    padding-left: 20px;
+    margin-bottom: 45px;
+}
+
+
+.left_block ol
+{
+    padding-left: 16px;
+    margin-bottom: 10px;
+}
+
+p.left_title
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(21, 169, 140);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.left_block li
+{
+    font-size: 19px;
+    line-height: 36px;
+    color: rgb(85, 85, 85);
+    font-family: "Georgia";
+}
+
+blockquote
+{
+    margin-top: 120px;
+    width: 590px;
+    position: relative;
+    left: 67px;
+}
+
+.author
+{
+    font-size: 16px;
+    line-height: 42px;
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.text
+{
+    font-size: 28px;
+    line-height: 42px;
+    color: rgb(132, 132, 132);
+    font-family: "Georgia";
+    font-style: italic;
+}
+
+.right_block
+{
+    float: left;
+    width: 590px;
+    margin-left: 62px;
+}
+
+.right_block_main
+{
+    margin-bottom: 20px;
+}
+
+.about_me
+{
+    font-size: 48px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 110px;
+}
+
+.about_me:after
+{
+    content: "";
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3a9;
+    display: block;
+    margin-top: 30px;
+}
+
+.hobby
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans";
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.rectangle
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3a9;
+}
+
+.main_me
+{
+    margin-top: 42px;
+    margin-bottom: 43px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85, 85, 85);
+    font-family: "Georgia";
+}
+
+.main_life
+{
+    margin-bottom: 50px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85, 85, 85);
+    font-family: "Georgia";
+}
+
+a.write_me
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(21, 169, 139);
+    font-family: "Georgia";
+    margin-bottom: auto;
+}
+
+.write_me_text
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(21, 169, 139);
+    text-decoration: underline;
+    font-family: "Georgia";
+    padding-right: 4px;
+}
+
+.clear
+{
+    clear: both;
+}
